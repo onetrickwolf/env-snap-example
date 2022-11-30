@@ -1,4 +1,5 @@
 const envify = require('envify/custom');
+require('dotenv').config();
 
 module.exports = {
   cliOptions: {

@@ -37,6 +37,8 @@
     "@metamask/snaps-cli": "^0.22.0",
     "@typescript-eslint/eslint-plugin": "^5.33.0",
     "@typescript-eslint/parser": "^5.33.0",
+    "dotenv": "^16.0.3",
+    "envify": "^4.1.0",
     "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-import": "^2.26.0",
