@@ -30,8 +30,7 @@ export const onRpcRequest: OnRpcRequestHandler = ({ origin, request }) => {
             prompt: getMessage(origin),
             description:
               'This custom confirmation is just for display purposes.',
-            textAreaContent:
-              'But you can edit the snap source code to make it do something, if you want to!',
+            textAreaContent: `SNAP_ENV is ${process.env.SNAP_ENV}, PUBLIC_KEY is ${process.env.PUBLIC_KEY}`,
           },
         ],
       });
