@@ -33,6 +33,7 @@ module.exports = {
 
 ```js
 // Example usage within snap
+
 return wallet.request({
   method: 'snap_confirm',
   params: [
