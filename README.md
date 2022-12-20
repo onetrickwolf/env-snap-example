@@ -15,6 +15,7 @@ yarn install && yarn start
 Can also use a `.env` file
 
 ## Code
+
 ```js
 // snap.config.js
 
@@ -45,11 +46,9 @@ return wallet.request({
   params: [
     {
       prompt: getMessage(origin),
-      description:
-        'This custom confirmation is just for display purposes.',
+      description: 'This custom confirmation is just for display purposes.',
       textAreaContent: `SNAP_ENV is ${process.env.SNAP_ENV}, PUBLIC_KEY is ${process.env.PUBLIC_KEY}`,
     },
   ],
 });
 ```
-
