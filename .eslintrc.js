@@ -10,9 +10,6 @@ module.exports = {
     {
       files: ['**/*.js'],
       extends: ['@metamask/eslint-config-nodejs'],
-      rules: {
-        'no-process-env': 'off',
-      },
     },
 
     {
